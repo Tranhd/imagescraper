@@ -20,7 +20,9 @@ MacBook-Pro:~ User$ python download_images.py -se 'Pikachu' -ni 100 -sd 'data/Pi
 Found 100 results
 Images downloaded: 98, errors: 2
 ```
-We ended up saving 98 images since we had two errors. Sample from data/Pikachu_raw/
+We ended up saving 98 images since we had two errors. 
+
+Sample from data/Pikachu_raw/
 
 ![scraped_0.png](data/Pikachu_raw/scraped_0.png "scraped_0.png") ![scraped_1.png](data/Pikachu_raw/scraped_1.png "scraped_1.png")
 
@@ -32,7 +34,9 @@ MacBook-Pro:~ User$ python download_images.py -se 'Pikachu' -ni 100 -sd 'data/Pi
 Found 100 results
 Images downloaded: 98, errors: 2
 ```
-We ended up saving 98 images since we had two errors. Sample from data/Pikachu_128/
+We ended up saving 98 images since we had two errors. 
+
+Sample from data/Pikachu_128/
 
 ![scraped_0.png](data/Pikachu_128/scraped_0.png "scraped_0.png") ![scraped_1.png](data/Pikachu_128/scraped_1.png "scraped_1.png")![scraped_2.png](data/Pikachu_128/scraped_2.png "scraped_2.png")![scraped_3.png](data/Pikachu_128/scraped_3.png "scraped_3.png")![scraped_4.png](data/Pikachu_128/scraped_4.png "scraped_4.png")![scraped_5.png](data/Pikachu_128/scraped_5.png "scraped_5.png")
 
