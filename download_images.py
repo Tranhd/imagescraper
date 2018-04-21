@@ -25,7 +25,7 @@ def download(arg):
     errors = 0
     temp1 = AppURLopener()
 
-    n_scrolls = arg['n_images'] // 100
+    n_scrolls = arg['n_images'] // 100 -1
     for _ in range(n_scrolls):
         hits = len(driver.find_elements_by_xpath('//div[contains(@class,"rg_meta")]'))
         driver.execute_script("window.scrollBy(0,10000)")
@@ -33,6 +33,7 @@ def download(arg):
         if hits == len(driver.find_elements_by_xpath('//div[contains(@class,"rg_meta")]')):
             try:
                 driver.find_element_by_xpath('//*[@id="smb"]').click()
+                driver.execute_script("window.scrollBy(0,10000)")
             except ElementNotVisibleException:
                 print('End of page, no more images can be found')
                 break
