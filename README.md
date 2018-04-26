@@ -44,7 +44,7 @@ Again, we might want something else. Lets try to download 600 images of Pikachu,
 
 #### Download 600 images of Pikachu in grayscale with target size 64x64
 ```console
-MacBook-Pro:~ User$ python python download_images.py -se 'Pikachu' -ni 600 -sd 'data/Pikachu_gr64/' -gr 1 -ts 64,64
+MacBook-Pro:~ User$ python download_images.py -se 'Pikachu' -ni 600 -sd 'data/Pikachu_gr64/' -gr 1 -ts 64,64
 Found 537 results
 Images downloaded: 523, errors: 14
 ```
