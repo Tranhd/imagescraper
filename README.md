@@ -48,7 +48,7 @@ MacBook-Pro:~ User$ python download_images.py -se 'Pikachu' -ni 600 -sd 'data/Pi
 Found 537 results
 Images downloaded: 523, errors: 14
 ```
-We ended up saving 523 images since we had 14 errors and only found 537 images to begin with. If this becomes a problem in terms of really wanting 600 images just increase the target number of images, I.g use '-ni 700' instead. 
+We ended up saving 523 images since we had 14 errors and only found 537 images to begin with. If this becomes a problem in terms of really wanting 600 images just increase the target number of images, e.g use '-ni 700' instead. 
 
 Sample from data/Pikachu_128/
 
